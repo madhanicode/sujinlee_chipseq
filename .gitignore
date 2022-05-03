@@ -10,3 +10,5 @@ __pycache__/
 *.log
 *.bedgraph
 dani_analysis_backup.py
+dir1.txt
+dir2.txt
