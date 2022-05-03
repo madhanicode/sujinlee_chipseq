@@ -19,7 +19,12 @@ Notes:
 get_background.sh
 This script calls bedtools to map all reads not in centromeric or telomeric regions, then uses those values to calculate an average background read depth per chromosome.
 Change refdir to directory containing .bed file "NOT_CEN_TEL_labeled.bed"
-get_background.sh bedgraph_dir output_dir
+usage: get_background.sh bedgraph_dir output_dir
+
+WCE_bedgr_to_cen_tel.sh
+Sorts reads to centromere or telomere by mapping using bedtools against defined centromeric and telomeric .bed files.
+Ensure refdir points to directory containing .bed files as indicated in script comments
+Additional directories for output and input bedgraph files need to be manually changed
 
 Authorship:
 Scripts were originally written by Daniela Perry, then proofread and modified by Manning Huang. 
