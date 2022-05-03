@@ -1,4 +1,5 @@
 d=/home/manning/scripts/sujin_testing/bedgraphs_WCE
+#point refdir at directory for tel_windows_sorted.bed and cen_windows_sorted.bed
 refdir=/home/manning/scripts/sujin_testing
 files=$(ls $d/*.bedgraph)
 o=/home/manning/scripts/sujin_testing/temp_outputs
